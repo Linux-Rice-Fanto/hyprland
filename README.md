@@ -42,3 +42,19 @@ sudo pacman -S hyprlock
 
 - Create a file in the `~/.conf/hypr/hyprlock.conf`.
 
+## Ly - Login Manager in TUI
+
+### Installation
+
+```bash
+sudo pacman -S ly
+```
+
+### Configuration
+
+```bash
+systemctl status display-manager.service # CHECK CURRENT DISPLAY MANAGER
+sudo systemctl disable sddm.service # DISABLE CURRENT DISPLAY MANAGER
+sudo systemctl enable ly.service # ENABLE LY AS DISPLAY MANAGER
+
+```
