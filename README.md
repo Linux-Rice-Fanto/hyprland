@@ -30,4 +30,15 @@ cp /etc/xdg/swaync/config.json ~/.config/swaync/
 cp /etc/xdg/swaync/style.css ~/.config/swaync/
 ```
 
+## Hyprlock - Lock your screen
+
+### Installation
+
+```bash
+sudo pacman -S hyprlock
+```
+
+### Configuration
+
+- Create a file in the `~/.conf/hypr/hyprlock.conf`.
 
